@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Portifolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+       
+        
+    </head>
+    <body>
+        <div class="header">
+   
+                <div class="logo">
+                    Portifolio.
+                </div>
+
+   
+                <input type="checkbox" id="check">
+                <label for="check" class="icons-h">
+                    <i class='bx bx-menu' id="menu-icon"></i>
+                    <i class='bx bx-x' id="close-icon" ></i>
+                </label>
+                
+    
+                <nav class="navbar">
+                     <a  href="#profile" style="--i:0">Home</a>
+                     <a href="#about" style="--i:1">About</a>
+                     <a href="#education" style="--i:2">Education</a>
+                     <a href="#skills" style="--i:3">Skills</a>
+                     <a href="#projects" style="--i:4">Project</a>
+                     <a href="#contact" style="--i:5">Contact</a>
+                </nav>
+            </div>
+        
+        
+        <section id="profile">
+          
+            <div class="section__pic-container">
+                <img src="./assets/2023-12-25-15-56-51-948.jpg" alt="Anushka Purwar profile picture" class="myimg"/>
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1-p">Hello, I'm</p>
+                <h1 class="title-p">Anushka Purwar            </h1>
+                
+                  <div class="head3">And I'm a <span class="multiple-text"></span></div>
+                  <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" style="--i:1" onclick="window.open('./assets/2000300100042-Anushka Purwar-CSE.pdf')">
+                        Download CV
+                    </button>
+                    <button class="btn btn-color-1" style="--i:2" onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/anushka-purwar-476273230" style="--i:1"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/Anushka-Purwar" style="--i:2"><i class='bx bxl-github' ></i></a>
+                    <a href="https://leetcode.com/Anushka_Purwar/" style="--i:3"><i class='bx bx-code-alt' ></i></a>
+
+                </div>
+            </div>
+            
+        </section>
+       
+         <!--about section-->
+        <!-- <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">ABOUT ME</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/IMG_20221126_233354_0164.jpg" alt="Profile" 
+                    class="about-pic"/>
+                </div>
+                <div class="education-details-container">
+                <div class="text-container">
+                    <p class="about-text">
+                        Greetings! I am an aspiring software developer with a strong foundation in JAVA, C, and Dart, eager to embark on a journey into the world of technology. My primary focus lies in Android development using Flutter and Firebase, where I've honed my skills in crafting user-friendly and innovative applications.
+
+In the web development arena, I've delved into creating dynamic and responsive interfaces using HTML and CSS. My enthusiasm for learning has led me to explore backend development with Laravel, adding a layer of depth to my skill set.
+
+I am excited about the possibilities that API development offers, and I've familiarized myself with Spring Boot and tools like Postman for efficient testing. My curiosity extends to database management, and I've gained exposure to both Mongo-DB and MySQL Workbench.
+
+In the fast-paced tech landscape, I am committed to staying updated and embracing new technologies. Although I may be a fresher, my dedication, adaptability, and eagerness to learn make me a valuable addition to any team.
+
+I am now seeking opportunities to apply and expand my skills in a professional environment, and I am ready to contribute my energy and passion to meaningful projects.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+            <p class="lets">Let's explore the endless possibilities of coding together!</p>
+            <img src="./assets/arrow.png" alt="To next Page" class="icon arrow"
+            onclick="location.href='./#education'"/>
+        </section> -->
+        <section id="about">
+            <p class="section__text__p1 "data-animation="slideInUp" data-animation-delay=".1s"><br>Get To Know More</p>
+            <h1 class="title" data-animation="fadeIn" data-animation-delay=".5s">About Me</h1>
+            <div class="section-container">
+              <div class="section__pic-container-about" data-animation="slideInRight" data-animation-delay=".3s">
+                <img
+                  src="./assets/IMG_20221126_233354_0164.jpg"
+                  alt="Profile picture"
+                  class="about-pic"
+                />
+              </div>
+             
+                <div class="text-container" data-animation="slideInLeft" data-animation-delay=".3s">
+                  <p>
+                    Greetings! I am an aspiring software developer with a strong foundation in JAVA, C, and Dart, eager to embark on a journey into the world of technology. My primary focus lies in Android development using Flutter and Firebase, where I've honed my skills in crafting user-friendly and innovative applications.
+
+In the web development arena, I've delved into creating dynamic and responsive interfaces using HTML and CSS. My enthusiasm for learning has led me to explore backend development with Laravel, adding a layer of depth to my skill set.
+
+I am excited about the possibilities that API development offers, and I've familiarized myself with Spring Boot and tools like Postman for efficient testing. My curiosity extends to database management, and I've gained exposure to both Mongo-DB and MySQL Workbench.
+
+In the fast-paced tech landscape, I am committed to staying updated and embracing new technologies. Although I may be a fresher, my dedication, adaptability, and eagerness to learn make me a valuable addition to any team.
+
+I am now seeking opportunities to apply and expand my skills in a professional environment, and I am ready to contribute my energy and passion to meaningful projects.
+<!-- <p class="lets">Let's explore the endless possibilities of coding together!</p> -->
+                  </p>
+                  <br>
+                  <p class="lets">Let's explore the endless possibilities of coding together!</p>
+                </div>
+               
+              </div>
+            </div>
+          
+            <img
+              src="./assets/down-arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#education'"
+            />
+          </section>
+
+          <!-- EDUCATION -->
+
+        <section id="education">
+            <p class="section__text__p1" data-animation="slideInUp" data-animation-delay=".1s"><br>Let's See My</p>
+            <h1 class="title" data-animation="fadeIn" data-animation-delay=".5s">Education</h1>
+        <div class="education-details-container">
+            <div class="education-containers">
+                <div class="details-container" data-animation="zoomIn">
+                    <p><img src="./assets/graduation.png" alt="eduaction" class="icon"/><p>Graduation</p></p>
+                <h3>Bachelor of Technology </h3><br>
+                <p>Inderprastha Engineering College, Ghaziabad, U.P.<br><br>CGPA(till 6th sem) - 8.3</p><br>
+                <p class="small_text">2020 ~ present</p>
+            </div>
+                <div class="details-container" data-animation="zoomIn" data-animation-delay="300ms">
+                    <img src="./assets/school.png" alt="eduaction" class="icon"/>
+            
+                <h3>Higher Secondary School</h3><br>
+                <p>Mantora Public School, Kanpur, U.P.<br><br>Graduated with 81%</p><br>
+                <p class="small_text">2017 ~ 2019</p>
+            </div>
+                    <div class="details-container" data-animation="zoomIn" data-animation-delay="600ms">
+                        <img src="./assets/school-secondary.png" alt="eduaction" class="icon"/>
+     
+                    <h3>Secondary School</h3><br>
+                    <p>St. Mary's Sen Sec School, Banda, U.P.<br><br>Graduated with 95%</p><br>
+                    <p class="small_text">2004 ~ 2017</p>
+                </div>
+            </div>
+            </div>
+            <img
+            src="./assets/down-arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#skills'"
+          />
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <p class="section__text__p1" data-animation="slideInUp" data-animation-delay=".1s"><br>Let's Explore my</p>
+            <h1 class="title" data-animation="fadeIn" data-animation-delay=".5s">Skills</h1>
+        <div class="skills-details-container">
+            <div class="skills-containers">
+                <div class="skills-details" data-animation="zoomReverseIn">
+                    <p class="skills-head">Languages</p> 
+                    <div class="row">
+                 <div class="column"> <p><img src="./assets/java.png"    alt="eduaction"/>          JAVA
+                    <!-- <div class="w3-border">             
+                        <div class="w3-grey" style="height:10px;width:90%"> </div>
+                      </div> -->
+                </p>
+                    <p><img src="./assets/c.png" alt="eduaction"/>     C</p>
+                    <p><img src="./assets/dart.png" alt="eduaction"/>          DART</p></div>
+                   <div class="column"><p><img src="./assets/html.png" alt="eduaction"/>         HTML</p>
+                    <p><img src="./assets/css.png" alt="eduaction"/>     CSS</p>
+                    <p><img src="./assets/javascript.png" alt="eduaction"/>            JavaScript</p></div>
+                    </div>
+              </div>
+              <div class="skills-details" data-animation="zoomReverseIn" data-animation-delay="300ms">
+                <p class="skills-head" style="text-align: center; align-items: center; justify-content: center;">Development<p>
+                <p><img src="./assets/flutter.png"    alt="eduaction"/>     Flutter</p>
+                       <p><img src="./assets/android-development.png" alt="eduaction"/>     Android Development</p>
+                       <p><img src="./assets/api.png" alt="eduaction"/>     API Development</p>
+                       <p><img src="./assets/web-development.png" alt="eduaction"/>     Web Development</p>
+                      
+              </div>
+                     <div class="skills-details" data-animation="zoomReverseIn" data-animation-delay="600ms">
+                        <div class="row">
+                            <div class="column">
+                                <p class="small_skills">Frameworks</p> <p><img src="./assets/laravel.png"    alt="eduaction"/>     Laravel</p>
+                               <p><img src="./assets/spring-boot.png" alt="eduaction"/>     Spring-Boot</p>
+                               <p class="small_skills" >Version Control</p>
+                               <p><img src="./assets/git.png" alt="eduaction"/>     GIT</p></div>
+                              <div class="column">
+                                <p class="small_skills">Database</p>
+                                <p><img src="./assets/mongodb.png" alt="eduaction"/>    MongoDB</p>
+                               <p><img src="./assets/firebase.png" alt="eduaction"/>     FireBase</p>
+                               <p class="small_skills">Tools</p>
+                               <p><img src="./assets/docker.png" alt="eduaction"/>       Docker</p>
+                               <p><img src="./assets/postman.png" alt="eduaction"/>       Postman</p>
+                            </div>
+                               </div>
+              </div>
+            </div>
+            </div>
+            <img
+              src="./assets/down-arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#projects'"
+            />
+        </section>
+
+
+
+        <!-- Projects -->
+
+        <section id="projects">
+            <br>
+            <p class="section__text__p1" data-animation="slideInUp" data-animation-delay=".1s">Browse My Recent</p>
+            <h1 class="title" data-animation="fadeIn" data-animation-delay=".5s">Projects</h1>
+            <div class="education-details-container">
+                <div class="education-containers">
+                    <div class="skills-details" data-animation="flipInY">
+                      <div class="image_p">
+                  <div class="article-container">  
+                    <img
+                      src="./assets/7461489.jpg"
+                      alt="Project 1"
+                      class="project-img"
+                    />
+                    </div>
+                    <h3 class="project-title">ParentM</h3>
+                  <div class="btn-container-project">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/Anushka-Purwar/ParentM.git'"
+                    >
+                      Github
+                    </button>
+                    </div>
+                <div class="img-overlay">
+                  <h3 class="project-title">ParentM</h3>
+                  <p class="project-description">
+                    Developed a microservices architecture with CRUD operations and service discovery using Netflix Eureka. Implemented an API Gateway using Spring Cloud Gateway, ensuring microservice security with Keycloak. Integrated circuit breaker, explored distributed tracing, and built an event-driven service using Kafka. Dockerized the application and implemented monitoring using Prometheus and Grafana for efficient microservice management.
+                  </p>
+                  <div class="btn-container-project">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/Anushka-Purwar/ParentM.git'">
+                      Github
+                    </button>
+                    </div>
+              </div>
+                </div>
+                </div>
+
+
+                <div class="skills-details" data-animation="flipInY" data-animation-delay="300ms">
+                  <div class="image_p">
+              <div class="article-container">  
+                <img
+                  src="./assets/28404.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+                </div>
+                <h3 class="project-title">My Bank Card Mananger</h3>
+              <div class="btn-container-project">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Anushka-Purwar/My_Bank_Card_Manager.git'">
+                  Github
+                </button>
+                </div>
+            <div class="img-overlay">
+              <h3 class="project-title">My Bank Card Manager</h3>
+              <p class="project-description">
+                A data breach involves unauthorized access to sensitive information. To prevent and understand cyber threats, leveraging Computer Science skills is crucial. Implementing strategies like Honeypots, which simulate vulnerable systems to attract and analyze cyberattacks, helps gather insights into attackers' tactics. The system also utilizes SHA256 hashing for change detection in data.
+              </p>
+              <div class="btn-container-project">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Anushka-Purwar/My_Bank_Card_Manager.git'"
+                >
+                  Github
+                </button>
+                </div>
+          </div>
+            </div>
+            </div>
+            <div class="skills-details" data-animation="flipInY" data-animation-delay="600ms">
+              <div class="image_p">
+          <div class="article-container">  
+            <img
+              src="./assets/3904462.jpg"
+              alt="Project 1"
+              class="project-img"
+            />
+            </div>
+            <h3 class="project-title">Favour Flavour</h3>
+          <div class="btn-container-project">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            </div>
+        <div class="img-overlay">
+          <h3 class="project-title">Favour Flavour</h3>
+          <p class="project-description">
+            Built a food delivery application using DART for both iOS and Android platforms, incorporating a backend system with a Laravel admin panel to manage operations and RESTful APIs for seamless communication.
+            <br>
+          </p>
+          <br> <br>
+          <div class="btn-container-project">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            </div>
+      </div>
+        </div>
+        </div>
+              </div>
+            </div>
+            <img
+              src="./assets/down-arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#contact'"
+            />
+          </section>
+
+          <!-- CONTACT -->
+
+          <div id="contact">
+            <br>
+            <p class="section__text__p1" data-animation="slideInUp" data-animation-delay=".1s">Feel free to</p>
+            <h1 class="title" data-animation="fadeIn" data-animation-delay=".5s">Contact</h1>
+            
+            <div class="contact-wrapper">
+            
+            <!-- Left contact page --> 
+              
+              <form method="post" id="contact-form" class="form-horizontal" role="form" data-animation="slideInRight" data-animation-delay="300ms">
+                 
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                  </div>
+                </div>
+          
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="subject" class="form-control" id="subject" placeholder="subject" name="subject" value="" required>
+                  </div>
+                </div>
+          
+                <textarea class="form-control" rows="10" placeholder="MESSAGE" id="message" required></textarea>
+                
+                <!-- <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                  <div class="alt-send-button">
+                    <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                  </div> -->
+                  <div class="btn-container-project btn-post" >
+                    <button
+                      class="btn btn-color-2 " id="btn">
+                      Send
+                    </button>
+                    </div>
+                
+                </button>
+                
+              </form>
+              
+            <!-- Right contact page --> 
+              
+                <div class="direct-contact-container"
+                data-animation="slideInLeft"
+                data-animation-delay=".3s">
+          
+                  <ul class="contact-list">
+                    <li class="list-item"><img src="./assets/location.png" class="right_img" ><span class="contact-text place">Ghaziabad, UP</span></li>
+                    
+                    <li class="list-item">
+                      <img src="./assets/phone.png" class="right_img" >
+                      <span class="contact-text phone"><a href="tel:7991644880" title="Give me a call">(+91)7991644880</a></span></li>
+                    
+                    <li class="list-item">
+                      <img src="./assets/mail.png" class="right_img" >
+                      <span class="contact-text gmail"><a href="mailto:anushkapurwar025@gmail.com" title="Send me an email">anushka.purwar025@gmail.com</a></span></li>
+                    
+                  </ul>
+          
+                  <hr>
+                  <ul class="social-media-list">
+                    <a href="https://www.linkedin.com/in/anushka-purwar-476273230" target="_blank" class="contact-icon">
+                      <div class="icon-contact"><img src="./assets/linkedin.png"></div>
+                      </a>
+                    
+                    <a href="https://github.com/Anushka-Purwar" target="_blank" class="contact-icon">
+                      <div class="icon-contact"><img src="./assets/github-down.png"></div></a>
+                    
+                    <a href="https://leetcode.com/Anushka_Purwar/" target="_blank" class="contact-icon">
+                      <div class="icon-contact"><img src="./assets/leetcode-down.png"></div></a>
+                      <a href="https://auth.geeksforgeeks.org/user/anushka_purwar" target="_blank" class="contact-icon">
+                        <div class="icon-contact"><img src="./assets/geeksforgeeks-svgrepo-com.png"></div></a>
+                    
+                  </ul>
+                  <hr>
+                </div>
+              </div> 
+            </div>
+           
+            <footer>
+              <a href="./#profile">
+                <div class="icon-up">
+                  <img src="./assets/up-arrow.png"></div>
+                </a>
+              <p>Made by Anushka Purwar</p>
+            </footer>
+           
+
+
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="script.js" async defer></script>
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+    </body>
+</html>
