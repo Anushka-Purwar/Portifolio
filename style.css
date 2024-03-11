@@ -546,11 +546,17 @@ section {
 /* Project */
 #projects {
   position: relative;
+  height: fit-content;
 }
 
 .color-container {
   border-color: #66FCF1;
   background:#1c1e21;
+}
+.education-containers-p {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  /* margin-top: 5rem; */
 }
 
 .project-img {
